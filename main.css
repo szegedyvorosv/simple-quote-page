@@ -35,6 +35,7 @@ body {
 @media (max-width: 768px) {
   .quote {
     font-size: 1.8rem;
+    line-height: 2rem;
   }
 }
 
@@ -42,5 +43,12 @@ body {
   .wrapper {
     padding-top: 2rem;
     width: 95%;
+  }
+}
+
+@media (min-width: 1920px) {
+  .quote {
+    font-size: 3rem;
+    margin-top: 2rem;
   }
 }
