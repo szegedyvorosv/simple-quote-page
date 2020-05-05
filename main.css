@@ -31,3 +31,16 @@ body {
   font-size: 1.5rem;
   font-style: italic;
 }
+
+@media (max-width: 768px) {
+  .quote {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    padding-top: 2rem;
+    width: 95%;
+  }
+}
