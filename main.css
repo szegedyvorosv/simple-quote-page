@@ -35,7 +35,7 @@ body {
 @media (max-width: 768px) {
   .quote {
     font-size: 1.8rem;
-    line-height: 2rem;
+    line-height: 1.9rem;
   }
 }
 
@@ -50,6 +50,7 @@ body {
   .quote {
     font-size: 3rem;
     margin-top: 2rem;
+    margin-bottom: 1rem;
   }
 }
 
@@ -57,4 +58,32 @@ body {
   .author {
     font-size: 2rem;
   }
+}
+.languages {
+  text-align: center;
+  position: relative;
+  top: 30vh;
+}
+
+.por, .fra, .lux {
+  margin-right: 5rem;  
+}
+
+.eng {
+  margin-right: 5rem;
+  
+}
+
+.por {
+  
+}
+
+.buttons {
+  text-decoration: none;
+  background-color: transparent;
+  color: black;
+  border: none;
+  font-size: 1.6rem;
+  font-family: 'Julius Sans One', sans-serif;
+  font-style: bold;
 }
