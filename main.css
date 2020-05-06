@@ -15,7 +15,7 @@ body {
 }
 
 .wrapper {
-  padding-top: 4rem;
+  padding-top: 3rem;
   width: 90%;
   margin: 0 auto;
   text-align: center;
@@ -40,10 +40,7 @@ body {
 }
 
 @media (max-width: 768px) {
-  .wrapper {
-    padding-top: 2rem;
-    width: 95%;
-  }
+
 }
 
 @media (min-width: 1920px) {
@@ -65,7 +62,7 @@ body {
   top: 30vh;
 }
 
-.por, .fra, .lux {
+.por, .fra, .lux, .eng {
   margin-right: 5rem;  
 }
 
@@ -80,10 +77,19 @@ body {
 
 .buttons {
   text-decoration: none;
-  background-color: transparent;
+  background-color: hsla(267, 100%, 97%, 0.33);
   color: black;
-  border: none;
+  border-radius: 8px;
   font-size: 1.6rem;
   font-family: 'Julius Sans One', sans-serif;
   font-style: bold;
+  transition: all 0.5s ease-in-out;
+}
+
+a:hover {
+  transition: 
+}
+
+.buttons:hover {
+  transform: scale(1.2);
 }
